@@ -5,6 +5,247 @@
 }
 
 
-.logo{
+.header{
+    background-color: #212529;
+    width: 100%;
+    height: 120px;
+    color: aliceblue;
+    font-size: x-large;
+
+    }
+
+.logo-title{
+top:50px;
+position: relative;
+left: 90px;
+}
+
+
+.nav-bar ul {
+color: aquamarine;
+font-size: x-large;
+display: flex;
+border: solid;
+width: 450px;
+justify-content: space-between;
+position: relative;
+left: 900px;
+list-style: none;
+border-width: 0;
+text-decoration: none;
+bottom: -20px;
+
+
+}
+.nav-bar ul a{
+text-decoration: none;
+color: aliceblue;
+
+}
+
+.main-top{
+    background-color: #1ABC9C;
+    width: 100%;
+    height: 900px;
+}
+
+.main-top{
+    align-items: right;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    
+}
+.main-top-content{
+    top:150px;
+    position: relative;
+}
+
+
+.section{
+    position: relative;
+    text-align: center;
+}
+
+.section-boxs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 40px;
+    padding-bottom: 80px;
+}
+.section-top-title {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+.section-top-icon-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.section-top-custom-line {
+    margin-right: 1em;
+    margin-top: 17px;
+    height: 4px;
+    border-radius: 3px;
+    width: 100px;
+    background-color: #2C3E50;
+}
+.section-top-custom-line:last-child {
+    margin-left: 1em;
+}
+
+.section-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+   
+}
+.section-row-top-boxs {
     display: flex;
 }
+
+.section-box-top {
+    width: 400px;
+    height: 300px;
+    border: 0.5px solid #ffffff ;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.section-box-top:nth-child(1){
+    background-color:#BA4C63;
+}
+.section-box-top:nth-child(2){
+    background-color:#1FA4B6;
+}
+.section-box-top:nth-child(3){
+    background-color:#130F0F;
+}
+.section-img{
+    margin-left: 9px;
+    margin-top: 40px;
+}
+.section-row-bottom-boxs {
+    display: flex;
+    margin-top: 58px;
+}
+.section-box-bottom {
+    width: 400px;
+    height: 300px;
+    border: 0.5px solid #ffffff ;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.section-box-bottom:nth-child(1){
+background-color: #1D83C1;
+}
+.section-box-bottom:nth-child(2){
+background-color: #1037B5;
+}
+.section-box-bottom:nth-child(3){
+background-color: #CCB2A3;
+} 
+
+.main-bottom{
+    background-color: #1ABC9C;
+    width: 100%;
+    height: 600px;
+}
+
+.main-bottom {
+    background-color: #1abc9c;
+    padding-bottom: 80px;
+}
+.main-bottom-all {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.main-bottom-title{
+    padding: 50px;
+    font-size: 50px;
+    font-weight: 700px;
+    color: #ffffff;
+}
+
+.main-bottom-icon-line {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.main-bottom-custom-line {
+    margin-right: 1em;
+    margin-top: 17px;
+    height: 4px;
+    border-radius: 3px;
+    width: 100px;
+    background-color: rgb(251, 253, 255);
+
+}
+
+.main-bottom-custom-line:last-child {
+    margin-left: 1em;
+}
+
+
+.main-bottom-text{
+    display: flex;
+    position: relative;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.main-paragraph-bottom{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+
+.main-paragraph-bottom:first-child{
+    margin: 0;
+}
+
+.btn {
+
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 22px 22px;
+    text-decoration: none;
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+    display: inline-block;
+    padding-top: 18px;
+    padding-right: 24px;
+    padding-bottom: 18px;
+    padding-left: 50px ;
+    font-size: 1.25rem;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 0.5rem;
+    
+ }
+ .btn:hover{
+     background-color: #f8f9fa;
+     color: #130F0F;
+     border-color: #f8f9fa;
+     background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 22px 22px;
+ }
+ .main-bottom-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;    
+ }
